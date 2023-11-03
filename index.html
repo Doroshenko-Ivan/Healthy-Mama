@@ -40,7 +40,7 @@
                               <h1>Доставка здорового питания для мам</h1>
                          </div>
                          <div class="wrapp-description">
-                              <p>Правильный и вкусный рацио<br>
+                              <p>Правильный и вкусный рацион<br>
                               для Вас и вашего ребенка</p>
                          </div>
                          <button class="checkout">
@@ -55,7 +55,6 @@
                          </button>
                     </div>
                     <div class="home-page__second-row">
-                         <div class="image"></div>
                          <div class="circle-behind"></div>
                          <div class="circle__first-line"></div>
                          <div class="circle__second-line"></div>
@@ -64,16 +63,16 @@
                          <label class="pointer" for="pregnant-woman">
                               <button id="pregnant-woman" class="switch">
                                    <span>Для беременных</span>
-                                   <svg class="circle" xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                                   <svg class="circle" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 34 34" fill="none">
                                         <circle cx="17.2837" cy="17.2736" r="16.4828" fill="#27AE60" />
                                    </svg>
-                                   <svg class="circle-line" xmlns="http://www.w3.org/2000/svg" width="51" height="51" viewBox="0 0 51 51" fill="none">
+                                   <svg class="circle-line" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 51 51" fill="none">
                                         <circle cx="25.2837" cy="25.2737" r="24.7737" stroke="#27AE60" />
                                    </svg>
                               </button>
                          </label>
                          <label class="pointer" for="breast-feeding">
-                              <button id="breast-feeding" class="switch">
+                              <button class="switch"  id="breast-feeding" >
                                    <span>Для кормящих</span>
                                    <svg class="circle" xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 34 34" fill="none">
                                         <circle cx="17.2837" cy="17.2736" r="16.4828" fill="#27AE60" />
@@ -94,6 +93,7 @@
                                    </svg>
                               </button>
                          </label>
+                         <div class="image"></div>
                     </div>
                     <div class="petal-1"></div>
                     <div class="petal-2"></div>
@@ -143,6 +143,19 @@
                                         </svg>
                                         <span>Поддержание фигуры</span>
                                    </div>
+                                   <div class="wrapp-reasons hidden">
+                                        <svg class="fill" xmlns="http://www.w3.org/2000/svg" width="13" height="11" viewBox="0 0 13 11" fill="none">
+                                             <path d="M1 3.94737L5.25806 9L12 1" stroke="#E0F3FE" stroke-width="2" />
+                                        </svg>
+                                        <span>Отстутствие вредных компонентов</span>
+                                   </div>
+                                   <div class="wrapp-reasons hidden">
+                                        <svg class="fill" xmlns="http://www.w3.org/2000/svg" width="13" height="11" viewBox="0 0 13 11" fill="none">
+                                             <path d="M1 3.94737L5.25806 9L12 1" stroke="#E0F3FE" stroke-width="2" />
+                                        </svg>
+                                        <span>Снижение нагрузки на органы
+                                             пищеварения</span>
+                                   </div>
                               </div>
                               <div class="wrapp-reasons__second-column">
                                    <div class="wrapp-reasons">
@@ -178,7 +191,7 @@
                                    </div>
                                    <div class="wrapp-deskription">
                                         <h5>Овощи</h5>
-                                        <p>брокколи, тыква, цветная капуста, репка, огурцы. Готовьте блюда из тушеных смесей без добавления масла.</p>
+                                        <p>брокколи, тыква, цветная  капуста, репка, огурцы. Готовьте блюда из тушеных смесей без добавления масла.</p>
                                    </div>
                               </div>
                               <div class="image-slider__slide swiper-slide">
@@ -236,7 +249,7 @@
                          <!-- <div class="swiper-pagination"></div> -->
                          <!-- <div class="swiper-scrollbar"></div> -->
                          <div class="hidden-photo-1"></div>
-                         <div class="hidden-photo-2"></div>
+                         <!-- <div class="hidden-photo-2"></div> -->
                     </div>
                </div>
           </div>
@@ -441,16 +454,18 @@
                          <div class="wrapp-input">
                               <input type="tel" placeholder="Ваш телефон">
                          </div>
-                         <button class="checkout">
-                              <span>Оформить заказ</span>
-                              <svg class="circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 43" fill="none">
-                                   <circle cx="21.5" cy="21.5" r="21.5" fill="#35B86C" />
-                              </svg>
-                              <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="21" height="14" viewBox="0 0 21 14" fill="none">
-                                   <path d="M0 7H19M19 7L13 1M19 7L13 13" stroke="white" stroke-width="2" />
-                              </svg>
-                              <div class="outside-block"></div>
-                         </button>
+                         <div class="wrapp-button">
+                              <button class="checkout">
+                                   <span>Оформить заказ</span>
+                                   <svg class="circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 43" fill="none">
+                                        <circle cx="21.5" cy="21.5" r="21.5" fill="#35B86C" />
+                                   </svg>
+                                   <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="21" height="14" viewBox="0 0 21 14" fill="none">
+                                        <path d="M0 7H19M19 7L13 1M19 7L13 13" stroke="white" stroke-width="2" />
+                                   </svg>
+                                   <div class="outside-block"></div>
+                              </button>
+                         </div>
                     </form>
                </div>
           </div>
