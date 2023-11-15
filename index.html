@@ -4,536 +4,575 @@
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@400;700&display=swap"
-          rel="stylesheet">
-     <link rel="stylesheet" href="css/style.css">
-     <title>Empathy</title>
+     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="./css/style.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js" defer></script>
+     <script src="/js/script.js" defer></script>
+     <title>Healthy Mama</title>
 </head>
 <body>
      <div class="wrapp-page">
-          <header class="header__container">
+          <div class="header__container">
                <div class="header__content">
-                    <div class="header__wrapp-logo">
-                         <svg xmlns="http://www.w3.org/2000/svg" width="128" height="32" viewBox="0 0 128 32" fill="none">
-                              <g clip-path="url(#clip0_1_198)">
-                                   <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M4.18591 15.1626C4.18591 15.6405 4.21769 16.0864 4.28113 16.5323C6.63143 16.3093 10.6013 15.2264 10.6013 12.1047C10.6013 10.7032 9.87097 9.33347 8.02879 9.33347C5.61506 9.33347 4.18591 11.7224 4.18591 15.1626ZM14.9842 21.0555C14.1903 22.3295 11.713 24.8778 7.90179 24.8778C3.67767 24.8778 0.088913 21.7562 0.088913 16.819C0.088913 11.6268 4.05879 7.90012 8.60047 7.90012C11.6812 7.90012 14.1585 9.49272 14.1585 12.2003C14.1585 16.4367 7.93357 17.3925 4.50347 17.7109C5.2975 20.6095 7.45723 21.7881 9.74384 21.7881C11.6495 21.7881 12.9834 20.8325 13.9044 20.1318C14.5079 19.6539 15.27 20.6095 14.9842 21.0555Z"
-                                        fill="#1E1928" />
-                                   <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M42.7736 22.8392C43.2183 22.903 43.504 23.2215 43.504 23.6675V23.7948C43.504 24.2408 43.2183 24.5274 42.7736 24.5274H36.2628C35.8183 24.5274 35.5324 24.2408 35.5324 23.7948V23.6675C35.5324 23.2215 35.8183 22.903 36.2628 22.8392L36.8663 22.7755C37.3109 22.7117 37.5968 22.3932 37.5968 21.9474V13.57C37.5968 11.6268 36.4534 10.7669 35.0241 10.7669C34.0079 10.7669 32.9281 11.1173 32.0388 12.009C31.7529 12.2958 31.5942 12.5188 31.5942 13.1559V21.9474C31.5942 22.3932 31.8801 22.7117 32.3246 22.7755L32.9281 22.8392C33.3728 22.903 33.6586 23.2215 33.6586 23.6675V23.7948C33.6586 24.2408 33.3728 24.5274 32.9281 24.5274H26.4174C25.9727 24.5274 25.6868 24.2408 25.6868 23.7948V23.6675C25.6868 23.2215 25.9727 22.903 26.4174 22.8392L27.0208 22.7755C27.4654 22.7117 27.7512 22.3932 27.7512 21.9474V13.57C27.7512 11.6268 26.6079 10.7669 25.1786 10.7669C24.1624 10.7669 22.9873 11.2446 22.1298 12.0409C21.8121 12.3595 21.6533 12.6144 21.6533 13.0921V21.9474C21.6533 22.3932 21.9392 22.7117 22.3839 22.7755L22.9873 22.8392C23.4319 22.903 23.7177 23.2215 23.7177 23.6675V23.7948C23.7177 24.2408 23.4319 24.5274 22.9873 24.5274H16.4765C16.0318 24.5274 15.7461 24.2408 15.7461 23.7948V23.6675C15.7461 23.2215 16.0318 22.903 16.4765 22.8392L17.08 22.7755C17.5247 22.7117 17.8105 22.3932 17.8105 21.9474V11.4995C17.8105 11.0536 17.5247 10.7351 17.08 10.6713L16.3494 10.5757C15.9048 10.5121 15.6191 10.1934 15.6191 9.74758V9.62008C15.6191 9.17409 15.9048 8.88747 16.3494 8.88747C17.5881 8.82372 18.922 8.47335 20.129 7.96374C20.5417 7.77262 20.8593 7.93186 20.9229 8.37785L21.3676 10.8306H21.7805C22.9555 9.20596 24.6705 7.90011 27.0525 7.90011C29.0852 7.90011 30.5144 9.01497 31.1813 10.8306H31.6259C32.801 9.20596 34.516 7.90011 36.8981 7.90011C39.7564 7.90011 41.4396 10.1617 41.4396 13.3788V21.9474C41.4396 22.3932 41.7256 22.7117 42.1701 22.7755L42.7736 22.8392Z"
-                                        fill="#1E1928" />
-                                   <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M56.8741 16.6915C56.8741 12.3914 55.1909 10.5758 52.7771 10.5758C51.729 10.5758 50.9669 10.9261 50.2998 11.4039C49.7599 11.7861 49.347 12.2321 49.347 13.0921V20.9281C49.347 22.2341 50.554 23.3808 52.3007 23.3808C54.8733 23.3808 56.8741 21.2147 56.8741 16.6915ZM60.9711 15.8952C60.9711 22.4888 56.62 24.9096 52.8089 24.9096C51.6656 24.9096 50.2999 24.6868 49.347 24.2727V29.0506C49.347 29.4966 49.6329 29.8151 50.0775 29.9107L51.6656 30.1336C52.1101 30.2292 52.396 30.5477 52.396 30.9937V31.121C52.396 31.567 52.1101 31.8536 51.6656 31.8536H44.1385C43.6939 31.8536 43.408 31.567 43.408 31.121V30.9937C43.408 30.5477 43.6939 30.1973 44.1067 30.1017L44.8054 29.9426C45.2183 29.8469 45.5042 29.4966 45.5042 29.0506V11.4995C45.5042 11.0535 45.2183 10.735 44.7737 10.6713L44.0432 10.5758C43.5986 10.512 43.3128 10.1935 43.3128 9.74754V9.62005C43.3128 9.17418 43.5986 8.88756 44.0432 8.88756C45.2818 8.82381 46.6158 8.47344 47.8226 7.9637C48.2355 7.77271 48.5531 7.93183 48.6166 8.37782L48.9977 10.4802H49.4106C50.8715 8.60082 52.5866 7.90008 54.4604 7.90008C58.3986 7.90008 60.9711 11.1809 60.9711 15.8952Z"
-                                        fill="#1E1928" />
-                                   <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M71.4831 18.3161C71.4831 17.8701 71.2291 17.5834 70.7845 17.5834H69.6092C67.6085 17.5834 66.1792 18.4117 66.1792 20.1955C66.1792 21.7244 67.2272 22.4889 68.4979 22.4889C69.6092 22.4889 70.4669 21.9155 70.8798 21.5333C71.2292 21.2148 71.3242 20.9918 71.356 20.3546L71.4831 18.3161ZM78.4068 22.68C78.3432 22.8074 78.2164 22.9667 78.121 23.0941C77.2952 24.0815 76.1202 24.7503 74.6909 24.7503C73.1346 24.7503 72.1183 23.9541 71.8325 22.3614H71.4196C70.1811 24.0178 68.4343 24.9097 66.6557 24.9097C64.2102 24.9097 62.3363 23.3171 62.3363 20.9918C62.3363 18.8894 63.8925 17.4559 66.9098 16.7871L70.9115 15.9271C71.3242 15.8315 71.6103 15.4811 71.6421 15.0351L71.7055 13.984C71.8325 11.4358 70.8162 9.71571 68.0848 9.71571C66.8145 9.71571 65.6075 10.098 64.6548 10.8306C65.8617 10.8306 66.8145 11.6906 66.8145 12.901C66.8145 14.1114 65.8617 15.0351 64.6548 15.0351C63.4479 15.0351 62.4951 14.0795 62.4951 12.5188C62.4951 9.49272 66.1159 7.90012 69.4823 7.90012C73.357 7.90012 75.7708 9.97046 75.5484 13.6973L75.1355 21.0236C75.072 21.9474 75.5166 22.266 76.0884 22.266C76.3424 22.266 76.8823 22.2022 77.6763 21.8836C78.1528 21.6925 78.5974 22.2022 78.4068 22.68Z"
-                                        fill="#1E1928" />
-                                   <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M83.7736 24.7822C81.3917 24.7822 79.8989 23.5718 79.8989 20.0362V10.7032C79.8989 10.4801 79.772 10.2891 79.5495 10.2254L78.0251 9.62013C77.8346 9.52463 77.7076 9.36526 77.7076 9.17414V9.11052C77.7076 8.95127 77.8028 8.7919 77.9934 8.6964C79.7402 7.58154 81.3917 6.1482 83.0432 4.36435C83.329 4.07773 83.9641 4.3006 83.9008 4.77847L83.4243 8.28241H88.2518C88.6965 8.28241 88.9505 8.56903 88.8869 9.01489L88.76 9.62013C88.6965 10.066 88.3789 10.321 87.9342 10.2891L83.7419 10.0024V19.5583C83.7419 21.82 84.5995 22.2022 85.838 22.2022C86.8861 22.2022 87.6483 21.9154 87.966 21.7563C88.3153 21.5969 88.6011 21.7563 88.7282 21.9792C88.8869 22.234 88.9187 22.5844 88.6011 22.8711C87.4895 23.7949 85.9334 24.7822 83.7736 24.7822Z"
-                                        fill="#1E1928" />
-                                   <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M107.212 22.8392C107.657 22.903 107.942 23.2215 107.942 23.6675V23.7948C107.942 24.2408 107.657 24.5274 107.212 24.5274H100.701C100.257 24.5274 99.9707 24.2408 99.9707 23.7948V23.6675C99.9707 23.2215 100.257 22.903 100.701 22.8392L101.305 22.7755C101.749 22.7117 102.035 22.3932 102.035 21.9474V13.5063C102.035 11.4039 100.765 10.7669 99.3356 10.7669C98.0969 10.7669 96.9854 11.2446 96.0007 12.1365C95.8737 12.264 95.6197 12.5188 95.6197 12.9965V21.9474C95.6197 22.3932 95.9055 22.7117 96.35 22.7755L96.9536 22.8392C97.3982 22.903 97.6841 23.2215 97.6841 23.6675V23.7948C97.6841 24.2408 97.3982 24.5274 96.9536 24.5274H90.4429C89.9982 24.5274 89.7124 24.2408 89.7124 23.7948V23.6675C89.7124 23.2215 89.9982 22.903 90.4429 22.8392L91.0462 22.7755C91.4909 22.7117 91.7768 22.3932 91.7768 21.9474V3.75919C91.7768 3.44057 91.5861 3.21769 91.2686 3.18582L90.4429 3.02645C89.9982 2.96282 89.7124 2.6442 89.7124 2.23009C89.7124 1.78435 89.9982 1.4976 90.4429 1.46573C91.9037 1.33835 93.3647 0.892362 94.8892 0.191499C95.3338 -0.0313717 95.6197 0.128001 95.6197 0.573867V10.6394H96.0325C97.2076 9.01497 98.8909 7.90011 101.114 7.90011C104.258 7.90011 105.878 10.1617 105.878 13.3788V21.9474C105.878 22.3932 106.164 22.7117 106.609 22.7755L107.212 22.8392Z"
-                                        fill="#1E1928" />
-                                   <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M123.885 8.28236C124.33 8.28236 124.616 8.56898 124.616 9.01497V9.04684C124.616 9.49284 124.33 9.8432 123.917 9.9387L123.663 10.0023C123.25 10.0979 122.901 10.4483 122.805 10.8624C121.376 16.9146 118.994 23.8586 115.786 28.0631C113.976 30.4203 111.975 31.9174 109.593 31.9174C107.338 31.9174 106.576 30.5477 106.576 29.3054C106.576 27.9994 107.497 27.0758 108.768 27.0758C110.038 27.0758 110.959 27.9994 110.959 29.2735C110.959 29.5603 110.927 29.8151 110.832 30.0698C112.674 29.3372 114.262 27.6171 115.66 25.3557C112.865 20.6414 110.641 15.8952 109.022 10.5121C108.958 10.2572 108.736 10.0661 108.45 10.0342L107.942 9.9387C107.497 9.87495 107.211 9.55633 107.211 9.11059V9.01497C107.211 8.56898 107.497 8.28236 107.942 8.28236H114.198C114.643 8.28236 114.929 8.56898 114.929 9.01497V9.11059C114.929 9.55633 114.643 9.87495 114.198 9.9387L113.881 10.0023C113.436 10.0661 113.214 10.3846 113.309 10.7987C114.357 14.8441 116.136 18.6028 117.629 21.6606C119.026 18.2842 120.169 14.3345 120.932 10.8306C121.027 10.4164 120.805 10.0979 120.36 10.0342L119.502 9.90683C119.058 9.8432 118.772 9.52458 118.772 9.07872V9.01497C118.772 8.56898 119.058 8.28236 119.502 8.28236H123.885Z"
-                                        fill="#1E1928" />
-                                   <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M125.441 24.9415C124.075 24.9415 122.964 23.8586 122.964 22.4888C122.964 21.151 124.075 20.0361 125.441 20.0361C126.775 20.0361 127.887 21.151 127.887 22.4888C127.887 23.8586 126.775 24.9415 125.441 24.9415Z"
-                                        fill="#1E1928" />
-                              </g>
-                              <defs>
-                                   <clipPath id="clip0_1_198">
-                                        <rect width="128" height="32" fill="white" />
-                                   </clipPath>
-                              </defs>
-                         </svg>
-                    </div>
-                    <nav class="header__wrapp-menu">
+                    <nav class="menu">
                          <ul class="menu-list">
                               <li class="menu-item">
-                                   <a href="" class="menu-link">About</a>
+                                   <a name="home" class="menu-link">Здоровая мама</a>
                               </li>
-                              <ul class="menu-item">
-                                   <a href="" class="menu-link">Learn</a>
-                              </ul>
-                              <ul class="menu-item">
-                                   <a href="" class="menu-link">Partner</a>
-                              </ul>
-                              <ul class="menu-item">
-                                   <a href="" class="menu-link">COVID-19</a>
-                              </ul>
+                              <li class="menu-item">
+                                   <a href="#eat-right" class="menu-link">Важность правильного питания</a>
+                              </li>
+                              <li class="menu-item">
+                                   <a href="#delivery" class="menu-link">Почему мы?</a>
+                              </li>
+                              <li class="menu-item">
+                                   <a href="#order" class="menu-link">Где заказать?</a>
+                              </li>
+                              <button class="burger-menu__open">
+                                   <div class="burger-button_line firts"></div>
+                                   <div class="burger-button_line second"></div>
+                                   <div class="burger-button_line third"></div>
+                              </button>
+                              <button class="burger-menu__close"></button>
+                              <div class="burger-menu">
+                                   <div class="menu-list__burger">
+                                        <li class="burger__menu-item">
+                                             <a href="#eat-right" class="menu-link">Важность правильного питания</a>
+                                        </li>
+                                        <li class="burger__menu-item">
+                                             <a href="#delivery" class="menu-link">Почему мы?</a>
+                                        </li>
+                                        <li class="burger__menu-item">
+                                             <a href="#order" class="menu-link">Где заказать?</a>
+                                        </li>
+                                   </div>
+                              </div>
                          </ul>
                     </nav>
                </div>
-          </header>
-          <div class="home-screen__container">
-               <div class="home-screen__content">
-                    <div class="home-screen__first-row">
-                         <div class="home-screen__slogan">
-                              <h1>Losing a loved one<br> is hard enough.</h1>
+          </div>
+          <div class="home-page__container">
+               <div class="home-page__content">
+                    <div class="home-page__firt-row">
+                         <div class="wrapp-title">
+                              <h1>Доставка здорового питания для мам</h1>
                          </div>
-                         <div class="home-screen__description">
-                              <p>Empathy is here to help you with everything that comes next.</p>
-                              <p>We guide and support you along your journey of loss, giving<br>
-                                    you the tools to navigate and prioritize every task.
-                              </p>
+                         <div class="wrapp-description">
+                              <p>Правильный и вкусный рацион<br>
+                              для Вас и вашего ребенка</p>
                          </div>
-                         <div class="home-screen__try-for-free">
-                              <label  for="phone-number">Try it for free:</label>
+                         <button class="checkout">
+                              <span>Оформить заказ</span>
+                              <svg class="circle" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 43 43" fill="none">
+                                   <circle cx="21.5" cy="21.5" r="21.5" fill="#35B86C" />
+                              </svg>
+                              <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="21" height="14" viewBox="0 0 21 14" fill="none">
+                                   <path d="M0 7H19M19 7L13 1M19 7L13 13" stroke="white" stroke-width="2" />
+                              </svg>
+                              <div class="outside-block"></div>
+                         </button>
+                    </div>
+                    <div class="image-slider__one swiper-container">
+                         <div class="image-slider__wrapper swiper-wrapper">
+
+                              <div class="image-slider__slide swiper-slide">
+                                   <div class="wrapp-title">
+                                        <h4>Безопасные лакомства</h4>
+                                   </div>
+                                   <div class="image-mobile safe-treats">
+                                        <img src="img/SafeTreats2.png" alt="Photo">
+                                   </div>
+                              </div>
+
+                              <div class="image-slider__slide swiper-slide">
+                                   <div class="wrapp-title">
+                                        <h4>Для беременных</h4>
+                                   </div>
+                                   <div class="image-mobile ">
+                                        <img src="img/Pregnant1.png" alt="Photo">
+                                   </div>
+                              </div>
+
+                              <div class="image-slider__slide swiper-slide">
+                                   <div class="wrapp-title">
+                                        <h4>Для кормящих</h4>
+                                   </div>
+                                   <div class="image-mobile ">
+                                        <img src="img/BreastFeeding2.png" alt="Photo">
+                                   </div>
+                              </div>
+
+                              <div class="image-slider__slide swiper-slide">
+                                   <div class="wrapp-title">
+                                        <h4>Безопасные лакомства</h4>
+                                   </div>
+                                   <div class="image-mobile safe-treats">
+                                        <img src="img/SafeTreats2.png" alt="Photo">
+                                   </div>
+                              </div>
+                              
+                              <div class="image-slider__slide swiper-slide">
+                                   <div class="wrapp-title">
+                                        <h4>Для беременных</h4>
+                                   </div>
+                                   <div class="image-mobile">
+                                        <img src="img/Pregnant1.png" alt="Photo">
+                                   </div>
+                              </div>
+                              
+                              <div class="image-slider__slide swiper-slide">
+                                   <div class="wrapp-title">
+                                        <h4>Для кормящих</h4>
+                                   </div>
+                                   <div class="image-mobile ">
+                                        <img src="img/BreastFeeding2.png" alt="Photo">
+                                   </div>
+                              </div>
                          </div>
-                         <div class="home-screen__input">
-                              <input class="phone-number" type="tel" id="phone-number" placeholder="+380 66 137 13 89">
-                              <button class="button-text-me">
-                                   <span>Text Me the App</span>
+                         <div class="swiper-button-next"></div>
+                         <div class="swiper-button-prev"></div>
+                    </div>
+                    <div class="home-page__second-row">
+                         <div class="circle-behind"></div>
+                         <div class="circle__first-line"></div>
+                         <div class="circle__second-line"></div>
+                         <div class="circle__third-line"></div>
+                         <div class="circle__fourth-line"></div>
+                         <label class="pointer" for="pregnant-woman">
+                              <button id="pregnant-woman" class="switch">
+                                   <span>Для беременных</span>
+                                   <svg class="circle" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 34 34" fill="none">
+                                        <circle cx="17.2837" cy="17.2736" r="16.4828" fill="#27AE60" />
+                                   </svg>
+                                   <svg class="circle-line" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 51 51" fill="none">
+                                        <circle cx="25.2837" cy="25.2737" r="24.7737" stroke="#27AE60" />
+                                   </svg>
+                              </button>
+                         </label>
+                         <label class="pointer" for="breast-feeding">
+                              <button class="switch"  id="breast-feeding" >
+                                   <span>Для кормящих</span>
+                                   <svg class="circle" xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 34 34" fill="none">
+                                        <circle cx="17.2837" cy="17.2736" r="16.4828" fill="#27AE60" />
+                                   </svg>
+                                   <svg class="circle-line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51 51" fill="none">
+                                        <circle cx="25.2837" cy="25.2737" r="24.7737" stroke="#27AE60" />
+                                   </svg>
+                              </button>
+                         </label>
+                         <label class="pointer" for="safe-treats">
+                              <button id="safe-treats" class="switch">
+                                   <span>Безопасные лакомства</span>
+                                   <svg class="circle" xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                                        <circle cx="17.2837" cy="17.2736" r="16.4828" fill="#27AE60" />
+                                   </svg>
+                                   <svg class="circle-line" xmlns="http://www.w3.org/2000/svg" width="51" height="51" viewBox="0 0 51 51" fill="none">
+                                        <circle cx="25.2837" cy="25.2737" r="24.7737" stroke="#27AE60" />
+                                   </svg>
+                              </button>
+                         </label>
+                         <div class="image"></div>
+                    </div>
+                    <div class="petal-1"></div>
+                    <div class="petal-2"></div>
+                    <div class="petal-3"></div>
+                    <div class="petal-4"></div>
+                    <div class="petal-5"></div>
+                    <div class="petal-6"></div>                 
+               </div>
+          </div>
+          <div class="reasons-eat-right__container">
+               <a name="eat-right"></a>
+               <div class="reasons-eat-right__content">
+                    <div class="first-row">
+                         <div class="image"></div>
+                         <div class="behind-initials">
+                              <div class="wrapp-initials">
+                                   <span>Иванова Надежда Александровна</span>
+                                   <span>Сертифицированный диетолог</span>
+                              
+                              </div>
+                         </div>
+                         <div class="petal-1"></div>
+                         <div class="petal-2"></div>
+                    </div>
+                    <div class="second-row">
+                         <h2>
+                              <a name="eat-right">Почему Вам нужно правильно питаться?</a>
+                         </h2>
+                         <div class="wrapp-reasons-block">
+                              <div class="wrapp-reasons__first-column">
+                                   <div class="wrapp-reasons">
+                                   <svg class="fill" xmlns="http://www.w3.org/2000/svg" width="13" height="11" viewBox="0 0 13 11" fill="none">
+                                        <path d="M1 3.94737L5.25806 9L12 1" stroke="#E0F3FE" stroke-width="2" />
+                                   </svg>
+                                   <span>Здоровый ребенок</span>
+                                   </div>
+                                   <div class="wrapp-reasons">
+                                        <svg class="fill" xmlns="http://www.w3.org/2000/svg" width="13" height="11" viewBox="0 0 13 11" fill="none">
+                                             <path d="M1 3.94737L5.25806 9L12 1" stroke="#E0F3FE" stroke-width="2" />
+                                        </svg>
+                                        <span>Повышение иммунитета</span>
+                                   </div>
+                                   <div class="wrapp-reasons">
+                                        <svg class="fill" xmlns="http://www.w3.org/2000/svg" width="13" height="11" viewBox="0 0 13 11" fill="none">
+                                             <path d="M1 3.94737L5.25806 9L12 1" stroke="#E0F3FE" stroke-width="2" />
+                                        </svg>
+                                        <span>Поддержание фигуры</span>
+                                   </div>
+                                   <div class="wrapp-reasons hidden">
+                                        <svg class="fill" xmlns="http://www.w3.org/2000/svg" width="13" height="11" viewBox="0 0 13 11" fill="none">
+                                             <path d="M1 3.94737L5.25806 9L12 1" stroke="#E0F3FE" stroke-width="2" />
+                                        </svg>
+                                        <span>Отстутствие вредных компонентов</span>
+                                   </div>
+                                   <div class="wrapp-reasons hidden">
+                                        <svg class="fill" xmlns="http://www.w3.org/2000/svg" width="13" height="11" viewBox="0 0 13 11" fill="none">
+                                             <path d="M1 3.94737L5.25806 9L12 1" stroke="#E0F3FE" stroke-width="2" />
+                                        </svg>
+                                        <span>Снижение нагрузки на органы
+                                             пищеварения</span>
+                                   </div>
+                              </div>
+                              <div class="wrapp-reasons__second-column">
+                                   <div class="wrapp-reasons">
+                                        <svg class="fill" xmlns="http://www.w3.org/2000/svg" width="13" height="11" viewBox="0 0 13 11" fill="none">
+                                             <path d="M1 3.94737L5.25806 9L12 1" stroke="#E0F3FE" stroke-width="2" />
+                                        </svg>
+                                        <span>Отстутствие вредных компонентов</span>
+                                   </div>
+                                   <div class="wrapp-reasons">
+                                        <svg class="fill" xmlns="http://www.w3.org/2000/svg" width="13" height="11" viewBox="0 0 13 11" fill="none">
+                                             <path d="M1 3.94737L5.25806 9L12 1" stroke="#E0F3FE" stroke-width="2" />
+                                        </svg>
+                                        <span>Снижение нагрузки на органы
+                                             пищеварения</span>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div class="slider__container">
+               <div class="slider__content">
+                    <div class="wrapp-title">
+                         <h3>Обязательные продукты<br>
+                         для здорового питания:</h3>
+                    </div>
+                    <div class="image-slider swiper-container">
+                         <div class="image-slider__wrapper swiper-wrapper">
+                             
+                              <div class="image-slider__slide swiper-slide">
+                                   <div class="image">
+                                        <img src="img/vegetables.png" alt="Photo">
+                                   </div>
+                                   <div class="wrapp-deskription">
+                                        <h5>Овощи</h5>
+                                        <p>брокколи, тыква, цветная  капуста, репка, огурцы. Готовьте блюда из тушеных смесей без добавления масла.</p>
+                                   </div>
+                              </div>
+                              <div class="image-slider__slide swiper-slide">
+                                   <div class="image">
+                                        <img src="img/meat.png" alt="Photo">
+                                   </div>
+                                   <div class="wrapp-deskription">
+                                        <h5>Мясо</h5>
+                                        <p>Крольчатина, телятина, индейка, курица без кожи. Мясные блюда ежедневно должны присутствовать в питании в тушеном,
+                                        запеченном или вареном виде.</p>
+                                   </div>
+                              </div>
+                              <div class="image-slider__slide swiper-slide">
+                                   <div class="image">
+                                        <img src="img/cheez.png" alt="Photo">
+                                   </div>
+                                   <div class="wrapp-deskription">
+                                        <h5>Продукты из молока</h5>
+                                        <p>Сыр, ряженка, простокваша, творог, йогурт без добавок, кефир.     Желательно кушать их кормящей маме ежедневно либо через день.</p>
+                                   </div>
+                              </div>
+                              <div class="image-slider__slide swiper-slide">
+                                   <div class="image">
+                                        <img src="img/vegetables.png" alt="Photo">
+                                   </div>
+                                   <div class="wrapp-deskription">
+                                        <h5>Овощи</h5>
+                                        <p>брокколи, тыква, цветная капуста, репка, огурцы. Готовьте блюда из тушеных смесей без добавления масла.</p>
+                                   </div>
+                              </div>
+                              <div class="image-slider__slide swiper-slide">
+                                   <div class="image">
+                                        <img src="img/meat.png" alt="Photo">
+                                   </div>
+                                   <div class="wrapp-deskription">
+                                        <h5>Мясо</h5>
+                                        <p>Крольчатина, телятина, индейка, курица без кожи. Мясные блюда ежедневно должны присутствовать в питании в
+                                             тушеном,
+                                             запеченном или вареном виде.</p>
+                                   </div>
+                              </div>
+                              <div class="image-slider__slide swiper-slide">
+                                   <div class="image">
+                                        <img src="img/cheez.png" alt="Photo">
+                                   </div>
+                                   <div class="wrapp-deskription">
+                                        <h5>Продукты из молока</h5>
+                                        <p>Сыр, ряженка, простокваша, творог, йогурт без добавок, кефир. Желательно кушать их кормящей маме ежедневно
+                                             либо через день.</p>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="swiper-button-next"></div>
+                         <div class="swiper-button-prev"></div>
+                         <!-- <div class="swiper-pagination"></div> -->
+                         <!-- <div class="swiper-scrollbar"></div> -->
+                         <div class="hidden-photo-1"></div>
+                         <!-- <div class="hidden-photo-2"></div> -->
+                    </div>
+               </div>
+          </div>
+          <div class="delivery__container">
+               <div class="delivery__content">
+                    <div class="first-row">
+                         <div class="image"></div>
+                         <div class="image"></div>
+                    </div>
+                    <div class="second-row">
+                         <div class="wrapp-inform">
+                              <div class="wrapp-title">
+                                   <h3>
+                                        <a name="delivery">Почему мамы<br>
+                                             выбирают нашу доставку?
+                                        </a> 
+                                   </h3>
+                              </div>
+                              <div class="wrapp-description">
+                                   <div class="wrapp-block">
+                                        <div class="wrapp-block__svg">
+                                             <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 130 130" fill="none">
+                                                  <g filter="url(#filter0_d_0_100)">
+                                                       <circle cx="65" cy="61" r="30" fill="white" />
+                                                  </g>
+                                                  <defs>
+                                                       <filter id="filter0_d_0_100" x="0" y="0" width="130" height="130" filterUnits="userSpaceOnUse"
+                                                            color-interpolation-filters="sRGB">
+                                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                                                 result="hardAlpha" />
+                                                            <feOffset dy="4" />
+                                                            <feGaussianBlur stdDeviation="17.5" />
+                                                            <feColorMatrix type="matrix" values="0 0 0 0 0.0980392 0 0 0 0 0.509804 0 0 0 0 0.741176 0 0 0 0.18 0" />
+                                                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_100" />
+                                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_100" result="shape" />
+                                                       </filter>
+                                                  </defs>
+                                             </svg>
+                                             <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" fill="none">
+                                                  <path d="M29.8661 8.00895C29.7766 7.36171 29.643 6.66938 29.4643 5.93271C29.2857 5.19628 29.0209 4.5712 28.6693 4.05765C28.3177 3.54434 27.924 3.2875 27.4889 3.2875C27.4388 3.06984 27.1959 3.09494 26.7605 3.36291C26.3252 3.63083 26.1214 3.72025 26.1497 3.63083C26.1774 3.54146 26.0264 3.65299 25.6973 3.96553C25.3681 4.27807 25.2037 4.43428 25.2037 4.43428L24.7097 4.92801C24.2746 5.34106 23.6413 5.65623 22.8097 5.87384C21.9782 6.09185 21.066 6.22543 20.0726 6.27574C19.0793 6.32611 18.0832 6.35965 17.0843 6.37625C16.0854 6.39284 15.0836 6.44321 14.0792 6.52683C13.0747 6.61062 12.2655 6.75288 11.6518 6.95377C10.4351 7.3555 9.29676 7.88857 8.23647 8.5527C7.17613 9.21677 6.22479 9.99249 5.38211 10.8799C4.53949 11.7671 3.8753 12.7967 3.38996 13.9687C2.90467 15.1402 2.66174 16.3682 2.66174 17.6516C2.66174 18.2432 2.71187 18.8235 2.81232 19.3928C2.83466 19.5044 2.92385 19.75 3.08029 20.1294C3.23662 20.5091 3.31467 20.721 3.31467 20.7659C3.31467 20.9776 3.14169 21.246 2.79561 21.5692C2.44959 21.8929 2.07026 22.2055 1.65722 22.5067C1.24429 22.8079 0.864905 23.1735 0.518826 23.6031C0.173098 24.0331 0 24.4433 0 24.8338C0 24.9121 0.00820927 24.9871 0.0250969 25.0599C0.0419845 25.1326 0.0588135 25.1854 0.0754666 25.2187C0.0921197 25.2524 0.122963 25.308 0.167469 25.3858C0.212327 25.4639 0.245516 25.5257 0.267974 25.5701C0.457784 25.8936 0.608424 26.1282 0.719953 26.2732C0.831481 26.4182 1.0044 26.552 1.2389 26.675C1.47309 26.7976 1.75796 26.859 2.09266 26.859C2.41651 26.859 2.75122 26.6804 3.0973 26.3236C3.44302 25.9666 3.73615 25.5755 3.9761 25.1518C4.21593 24.7277 4.46725 24.337 4.72942 23.9799C4.99158 23.6229 5.21212 23.4443 5.39061 23.4443C5.64727 23.4443 6.18293 23.6509 6.99775 24.0639C7.81246 24.4771 8.30361 24.7113 8.47102 24.7673C10.0111 25.2918 11.607 25.5541 13.259 25.5541C15.7592 25.5541 18.203 24.9509 20.5917 23.7456C23.0361 22.5292 25.0308 21.0338 26.5767 19.2591C28.1227 17.4842 29.1521 15.3473 29.6656 12.8469C29.8884 11.7531 29.9999 10.6762 29.9999 9.6158C30 9.19168 29.9554 8.65596 29.8661 8.00895ZM21.1102 13.6839C20.8981 13.896 20.6467 14.0021 20.3565 14.0021C18.3253 14.0021 16.576 14.2923 15.1083 14.8725C13.6409 15.4528 12.1425 16.435 10.6134 17.8189C10.3905 18.031 10.0165 18.3991 9.4919 18.9238C8.96739 19.4485 8.55429 19.8446 8.25313 20.1124C8.01863 20.3245 7.76761 20.4306 7.49963 20.4306C7.20926 20.4306 6.95823 20.3245 6.74608 20.1124C6.53399 19.9009 6.42803 19.6492 6.42803 19.359C6.42803 19.0911 6.53399 18.8405 6.74608 18.6057C8.10765 17.0989 9.42189 15.874 10.6887 14.9311C11.9555 13.9881 13.4037 13.2404 15.0332 12.6878C16.6624 12.1352 18.437 11.859 20.3565 11.859C20.6467 11.859 20.8981 11.9651 21.1102 12.1771C21.3221 12.3894 21.4283 12.6405 21.4283 12.9306C21.4282 13.2207 21.3225 13.4719 21.1102 13.6839Z"
+                                                       fill="#27AE60" />
+                                             </svg>
+                                        </div>
+                                        <div class="wrapp-block__paragraph">
+                                             <h5>Экологичность:</h5>
+                                             <p>продукты выращиваются без применения химии</p>
+                                        </div>
+                                   </div>
+                                   <div class="wrapp-block">
+                                        <div class="wrapp-block__svg">
+                                             <svg xmlns="http://www.w3.org/2000/svg" width="130" height="130" viewBox="0 0 130 130" fill="none">
+                                                  <g filter="url(#filter0_d_0_126)">
+                                                       <circle cx="65" cy="61" r="30" fill="white" />
+                                                  </g>
+                                                  <defs>
+                                                       <filter id="filter0_d_0_126" x="0" y="0" width="130" height="130" filterUnits="userSpaceOnUse"
+                                                            color-interpolation-filters="sRGB">
+                                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                                                 result="hardAlpha" />
+                                                            <feOffset dy="4" />
+                                                            <feGaussianBlur stdDeviation="17.5" />
+                                                            <feColorMatrix type="matrix" values="0 0 0 0 0.0980392 0 0 0 0 0.509804 0 0 0 0 0.741176 0 0 0 0.18 0" />
+                                                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_126" />
+                                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_126" result="shape" />
+                                                       </filter>
+                                                  </defs>
+                                             </svg>
+                                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                                                  <g clip-path="url(#clip0_0_127)">
+                                                       <path d="M27.9897 7.50092L24.5088 5.49114L22.4995 2.01076H18.4806L14.9997 0.000984192L11.5188 2.01076H7.49985L5.49007 5.49166L2.00978 7.50092V11.5199L0 15.0008L2.00978 18.4817V22.5006L5.49068 24.5104L7.50046 27.9913H11.5194L14.9998 30.0005L18.4807 27.9908H22.4996L24.5094 24.5099L27.9903 22.5001V18.4811L30.0001 15.0002L27.9903 11.5193V7.50092H27.9897ZM13.6459 21.14C13.3662 21.4197 12.9977 21.5556 12.6309 21.5505C12.264 21.5557 11.8956 21.4197 11.6159 21.14L7.22904 16.7531C6.6795 16.2036 6.6795 15.3121 7.22904 14.7626L8.39038 13.6012C8.93992 13.0517 9.8314 13.0517 10.3809 13.6012L12.6309 15.8512L19.6181 8.8635C20.1676 8.31396 21.0591 8.31396 21.6087 8.8635L22.77 10.0248C23.3195 10.5744 23.3195 11.4659 22.77 12.0154L13.6459 21.14Z"
+                                                            fill="#27AE60" />
+                                                  </g>
+                                                  <defs>
+                                                       <clipPath id="clip0_0_127">
+                                                            <rect width="30" height="30" fill="white" />
+                                                       </clipPath>
+                                                  </defs>
+                                             </svg>
+                                        </div>
+                                        <div class="wrapp-block__paragraph">
+                                             <h5>Сбалансированность:</h5>
+                                             <p>наши блюда составляют ведущие диетологи
+                                             по уникальной рецептуре</p>
+                                        </div>
+                                   </div>
+                                   <div class="wrapp-block">
+                                        <div class="wrapp-block__svg">
+                                             <svg xmlns="http://www.w3.org/2000/svg" width="130" height="130" viewBox="0 0 130 130" fill="none">
+                                                  <g filter="url(#filter0_d_0_117)">
+                                                       <circle cx="65" cy="61" r="30" fill="white" />
+                                                  </g>
+                                                  <defs>
+                                                       <filter id="filter0_d_0_117" x="0" y="0" width="130" height="130" filterUnits="userSpaceOnUse"
+                                                            color-interpolation-filters="sRGB">
+                                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                                                 result="hardAlpha" />
+                                                            <feOffset dy="4" />
+                                                            <feGaussianBlur stdDeviation="17.5" />
+                                                            <feColorMatrix type="matrix" values="0 0 0 0 0.0980392 0 0 0 0 0.509804 0 0 0 0 0.741176 0 0 0 0.18 0" />
+                                                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_117" />
+                                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_117" result="shape" />
+                                                       </filter>
+                                                  </defs>
+                                             </svg>
+                                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                                                  <g clip-path="url(#clip0_0_118)">
+                                                       <path d="M14.8189 0.00370016C14.8067 0.00370016 14.8019 0.00370016 14.797 0.00370016C14.7874 0.00370016 14.7874 0.00370016 14.7849 0.00370016C14.7849 0.00370016 14.7849 0.00370016 14.7813 0.00370016C14.7777 0.00370016 14.7728 0.00370016 14.768 0.00370016C14.7655 0.00370016 14.7655 0.00370016 14.7655 0.00370016C14.7655 0.00370016 14.7655 0.00370016 14.7607 0.00370016C14.728 -0.00357051 14.7183 0.0012766 14.694 0.0012766C10.8127 0.0012766 7.03682 1.54024 4.24609 4.24614L1.17787 1.13065C1.02882 0.985241 0.80343 0.939193 0.61924 1.01675C0.426567 1.09915 0.298119 1.28334 0.298119 1.49419V11.6101C0.298119 11.8949 0.529568 12.1251 0.810701 12.1251H10.803C10.8091 12.1251 10.82 12.1251 10.8273 12.1251C11.1108 12.1251 11.3411 11.8961 11.3411 11.6101C11.3411 11.4211 11.2381 11.2539 11.0842 11.1654L8.0535 8.09838C9.85057 6.36311 12.1954 5.41308 14.7668 5.41308C20.0138 5.44701 24.2877 9.74276 24.2877 15.077C24.2477 20.3192 19.9495 24.5858 14.6177 24.5858L14.6298 30.0001H14.7037C22.9184 30.0001 29.6486 23.3135 29.7019 15.0031C29.7019 6.79329 23.0323 0.0727715 14.8189 0.00370016Z"
+                                                            fill="#27AE60" />
+                                                  </g>
+                                                  <defs>
+                                                       <clipPath id="clip0_0_118">
+                                                            <rect width="30" height="30" fill="white" />
+                                                       </clipPath>
+                                                  </defs>
+                                             </svg>
+                                        </div>
+                                        <div class="wrapp-block__paragraph">
+                                             <h5>Индивидуальность</h5>
+                                             <p>для вашего выбора мы предоставляем большоe кол-во вариантов блюд</p>
+                                        </div>
+                                   </div>
+                                   <div class="wrapp-block">
+                                        <div class="wrapp-block__svg">
+                                             <svg xmlns="http://www.w3.org/2000/svg" width="130" height="130" viewBox="0 0 130 130" fill="none">
+                                                  <g filter="url(#filter0_d_0_108)">
+                                                       <circle cx="65" cy="61" r="30" fill="white" />
+                                                  </g>
+                                                  <defs>
+                                                       <filter id="filter0_d_0_108" x="0" y="0" width="130" height="130" filterUnits="userSpaceOnUse"
+                                                            color-interpolation-filters="sRGB">
+                                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                                                 result="hardAlpha" />
+                                                            <feOffset dy="4" />
+                                                            <feGaussianBlur stdDeviation="17.5" />
+                                                            <feColorMatrix type="matrix" values="0 0 0 0 0.0980392 0 0 0 0 0.509804 0 0 0 0 0.741176 0 0 0 0.18 0" />
+                                                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_108" />
+                                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_108" result="shape" />
+                                                       </filter>
+                                                  </defs>
+                                             </svg>
+                                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                                                  <g clip-path="url(#clip0_0_109)">
+                                                       <path d="M24.4287 10.4504H20.4726V14.9998H15.9232V18.9559H20.4726V23.5053H24.4287V18.9559H28.9781V14.9998H24.4287V10.4504Z"
+                                                            fill="#27AE60" />
+                                                       <path d="M13.9451 13.0219H18.4945V8.47242H26.4066V13.0219H28.701C29.5231 11.7032 30 10.2082 30 8.56935C30 4.0013 26.2976 0.297392 21.7305 0.297392C18.9555 0.297392 16.5 1.66427 15 3.76183C13.5 1.66421 11.0445 0.296799 8.26952 0.296799C3.7024 0.296799 0 3.99985 0 8.56796C0 10.5538 0.699692 12.3758 1.86587 13.8015L15 29.7033L18.4945 25.4723V20.934H13.9451V13.0219Z"
+                                                            fill="#27AE60" />
+                                                  </g>
+                                                  <defs>
+                                                       <clipPath id="clip0_0_109">
+                                                            <rect width="30" height="30" fill="white" />
+                                                       </clipPath>
+                                                  </defs>
+                                             </svg>
+                                        </div>
+                                        <div class="wrapp-block__paragraph">
+                                             <h5>Польза:</h5>
+                                             <p>питаясь нашими продуктами, Вы можете быть уверены в своем
+                                             здоровье и здоровье ребенка</p>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div class="container__instagram">
+               <div class="content__instagram">
+                   <div class="wrapp-title">
+                         <h5>Наш Instagram</h5>
+                         <p><a href="#">Подписывайтесь</a>, чтобы быть в курсе последних новостей</p>
+                   </div>
+                   <div class="wrapp-block-image">
+                    <img src="/img/eat1.png" alt="Eat">
+                    <img src="/img/eat2.png" alt="Eat">
+                    <img src="/img/eat3.png" alt="Eat">
+                    <img src="/img/eat4.png" alt="Eat">
+                    <img src="/img/eat5.png" alt="Eat">
+                    <img src="/img/eat6.png" alt="Eat">
+                    <img src="/img/eat7.png" alt="Eat">
+                    <img src="/img/eat8.png" alt="Eat">
+                    <img src="/img/eat9.png" alt="Eat">
+                   </div>
+               </div>
+          </div>
+          <div class="submit-application__container">
+               <div class="submit-application__content">
+                    <div class="wrapp-title">
+                         <h6>
+                              <a name="order">Хотите получить персональное меню?</a> 
+                         </h6>
+                         <p>Оставьте заявку и наш оператор свяжется с Вами для уточнения деталей</p>
+                    </div>
+                    <form  class="input-block" action="#">
+                         <div class="wrapp-input">
+                              <input type="name" placeholder="Ваше имя">
+
+                         </div>
+                         <div class="wrapp-input">
+                              <input type="tel" placeholder="Ваш телефон">
+                         </div>
+                         <div class="wrapp-button">
+                              <button class="checkout">
+                                   <span>Оформить заказ</span>
+                                   <svg class="circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 43" fill="none">
+                                        <circle cx="21.5" cy="21.5" r="21.5" fill="#35B86C" />
+                                   </svg>
+                                   <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="21" height="14" viewBox="0 0 21 14" fill="none">
+                                        <path d="M0 7H19M19 7L13 1M19 7L13 13" stroke="white" stroke-width="2" />
+                                   </svg>
+                                   <div class="outside-block"></div>
                               </button>
                          </div>
-                    </div>
-                    <div class="home-screen__second-row">
-                         <div class="home-screen__img"></div>
-                    </div>
+                    </form>
                </div>
           </div>
-          <div class="comfort__container">
-               <div class="comfort__content">
-                    <div class="comfort-content__title">
-                         <h2>Relief is near.</h2>
-                    </div>
-                    <div class="comfort-content__description">
-                         <p>Empathy was created by a team of software developers, estate lawyers, designers, and grief experts who came together
-                         with the goal of helping you and your family better cope with the many aspects of loss.</p>
-                    </div>
-                    <button class="learn-more">
-                         <span>Learn More</span>
-                    </button>
-               </div>
-          </div>
-          <div class="about-app__container">
-               <div class="about-app__content">
-                    <div class="about-app__first-row">
-                         <h2>How it works</h2>
-                         <div class="first-row__background-block1">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="286" height="291" viewBox="0 0 286 291" fill="none">
-                                   <path d="M0.3274 194.128C47.455 130.297 93.665 65.7767 137.937 0.27356C173.209 16.8814 197.597 39.3086 230.988 59.4591C249.015 70.339 271.033 87.129 285.959 101.653C242.018 166.939 194.145 229.559 141.973 290.324C131.946 285.826 123.859 281.501 113.719 275.712C101.263 268.598 87.839 257.277 75.313 250.28C61.204 242.396 48.251 232.607 35.3552 222.848C23.5299 213.913 11.7084 204.972 0.3274 194.128Z"
-                                        fill="white" />
-                              </svg>
-                         </div>
-                         <div class="first-row__background-block2">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="150" height="358" viewBox="0 0 150 358" fill="none">
-                                   <path d="M146.273 293.632C146.298 293.89 146.332 294.15 146.357 294.408C147.246 302.493 148.139 310.584 149.474 318.949C76.237 331.77 3.05427 345.736 -69.5896 357.882C-70.4715 253.896 -68.0716 149.43 -60.8445 47.973C2.85928 32.325 66.5316 16.4792 130.225 0.771973C130.664 1.05577 131.096 1.34297 131.49 4.48377C143.475 107.046 137.4 213.019 146.273 293.632Z"
-                                        fill="#A0B4BB" />
-                              </svg>
-                         </div>
-                    </div>
-                    <div class="about-app__second-row">
-                         <div class="second-row__deskription">
-                              <div class="circle">
-                                   <span>1</span>
-                              </div>
-                              <h3>Download the app.</h3>
-                              <p>Download Empathy to your iPhone or Android device. Sign up to get started.</p>
-                         </div>
-                         <div class="second-row__deskription">
-                              <div class="circle">
-                                   <span>2</span>
-                              </div>
-                              <h3>Personalize your journey.</h3>
-                              <p>Every family and every situation is unique. We’ll ask you a few questions about your loved one to tailor our guidance to
-                              your specific needs.</p>
-                         </div>
-                         <div class="second-row__deskription">
-                              <div class="circle">
-                                   <span>3</span>
-                              </div>
-                              <h3>Get comprehensive guidance and support.</h3>
-                              <p>We are here to help you navigate any task, with all the digital tools, expert advice, and real-time assistance you need.</p>
-                         </div>
-                    </div>
-               </div>
-          </div>
-          <div class="about-us__container">
-               <div class="about-us__content">
-                    <div class="content__first-block">
-                         <div class="inform-block">
-                              <h3>Built for peace of mind.</h3>
-                              <p>Empathy is designed to show you the specific steps to take, based on your unique situation and at
-                                   your own pace. Whether
-                                   you’re planning a funeral, managing an estate, or dealing with any other arrangements, get the
-                                   knowledge and support you
-                                   need.</p>
-                         </div>
-                         <div class="image-block">
-                              <svg class="first-layer" xmlns="http://www.w3.org/2000/svg" width="300" height="587" viewBox="0 0 300 587" fill="none">
-                                   <path d="M267.857 0.5H32.1429C14.3908 0.5 0 14.8908 0 32.6429V554.429C0 572.181 14.3908 586.571 32.1429 586.571H267.857C285.609 586.571 300 572.181 300 554.429V32.6429C300 14.8908 285.609 0.5 267.857 0.5Z"
-                                        fill="white" />
-                              </svg>
-                              <div class="second-layer"></div>
-                              <svg class="third-layer" xmlns="http://www.w3.org/2000/svg" width="147" height="23" viewBox="0 0 147 23" fill="none">
-                                   <path d="M0.0714111 1.35714C0.0714111 -5.74364 5.8282 -11.5 12.9286 -11.5H134C141.1 -11.5 146.857 -5.74364 146.857 1.35714V9.92857C146.857 17.0294 141.1 22.7857 134 22.7857H12.9286C5.8282 22.7857 0.0714111 17.0294 0.0714111 9.92857V1.35714Z"
-                                        fill="white" />
-                              </svg>
-                              <div class="image"></div>
-                         </div>
-                    </div>
-                    <div class="content__second-block">
-                         <div class="image-block">
-                              <svg class="first-layer" xmlns="http://www.w3.org/2000/svg" width="300" height="587" viewBox="0 0 300 587" fill="none">
-                                   <path d="M267.857 0.5H32.1429C14.3908 0.5 0 14.8908 0 32.6429V554.429C0 572.181 14.3908 586.571 32.1429 586.571H267.857C285.609 586.571 300 572.181 300 554.429V32.6429C300 14.8908 285.609 0.5 267.857 0.5Z"
-                                        fill="white" />
-                              </svg>
-                              <div class="second-layer"></div>
-                              <svg class="third-layer" xmlns="http://www.w3.org/2000/svg" width="147" height="23" viewBox="0 0 147 23" fill="none">
-                                   <path d="M0.0714111 1.35714C0.0714111 -5.74364 5.8282 -11.5 12.9286 -11.5H134C141.1 -11.5 146.857 -5.74364 146.857 1.35714V9.92857C146.857 17.0294 141.1 22.7857 134 22.7857H12.9286C5.8282 22.7857 0.0714111 17.0294 0.0714111 9.92857V1.35714Z"
-                                        fill="white" />
-                              </svg>
-                              <div class="image"></div>
-                         </div>
-                         <div class="inform-block">
-                              <h3>Standing by to assist you.</h3>
-                              <p>Chat with an expert who understands what you’re going through. Our loss experts will provide you
-                                   with the answers you
-                                   need, or help you find local professionals. They can even take some tasks off your hands and do
-                                   them for you.</p>
-                         </div>
-                    </div>
-                    <div class="content__third-block">
-                         <div class="content__first-block">
-                              <div class="inform-block">
-                                   <h3>Easily track and collect benefits.</h3>
-                                   <p>Get simple and immediate guidance to all the benefits your family may be entitled
-                                        to—including many you may not have
-                                        known about. The app helps you locate, determine eligibility, and collect on these
-                                        important sources of funding for the
-                                        funeral and the estate.</p>
-                              </div>
-                              <div class="image-block">
-                                   <svg class="first-layer" xmlns="http://www.w3.org/2000/svg" width="300" height="587" viewBox="0 0 300 587" fill="none">
-                                        <path d="M267.857 0.5H32.1429C14.3908 0.5 0 14.8908 0 32.6429V554.429C0 572.181 14.3908 586.571 32.1429 586.571H267.857C285.609 586.571 300 572.181 300 554.429V32.6429C300 14.8908 285.609 0.5 267.857 0.5Z"
-                                             fill="white" />
-                                   </svg>
-                                   <div class="second-layer"></div>
-                                   <svg class="third-layer" xmlns="http://www.w3.org/2000/svg" width="147" height="23" viewBox="0 0 147 23" fill="none">
-                                        <path d="M0.0714111 1.35714C0.0714111 -5.74364 5.8282 -11.5 12.9286 -11.5H134C141.1 -11.5 146.857 -5.74364 146.857 1.35714V9.92857C146.857 17.0294 141.1 22.7857 134 22.7857H12.9286C5.8282 22.7857 0.0714111 17.0294 0.0714111 9.92857V1.35714Z"
-                                             fill="white" />
-                                   </svg>
-                                   <div class="image"></div>
-                              </div>
-                         </div>
-                    </div>
-                    <div class="content__fourth-block">
-                         <div class="image-block">
-                              <svg class="first-layer" xmlns="http://www.w3.org/2000/svg" width="300" height="587" viewBox="0 0 300 587" fill="none">
-                                   <path d="M267.857 0.5H32.1429C14.3908 0.5 0 14.8908 0 32.6429V554.429C0 572.181 14.3908 586.571 32.1429 586.571H267.857C285.609 586.571 300 572.181 300 554.429V32.6429C300 14.8908 285.609 0.5 267.857 0.5Z"
-                                        fill="white" />
-                              </svg>
-                              <div class="second-layer"></div>
-                              <svg class="third-layer" xmlns="http://www.w3.org/2000/svg" width="147" height="23" viewBox="0 0 147 23" fill="none">
-                                   <path d="M0.0714111 1.35714C0.0714111 -5.74364 5.8282 -11.5 12.9286 -11.5H134C141.1 -11.5 146.857 -5.74364 146.857 1.35714V9.92857C146.857 17.0294 141.1 22.7857 134 22.7857H12.9286C5.8282 22.7857 0.0714111 17.0294 0.0714111 9.92857V1.35714Z"
-                                        fill="white" />
-                              </svg>
-                              <div class="rectangle"></div>
-                              <div class="image"></div>
-                         </div>
-                         <div class="inform-block">
-                              <h3>Paperwork, figured out.</h3>
-                              <p>The app helps you locate and safely store important papers, and guides you through handling them.
-                                   Bills, debt, unused
-                                   services, insurance policies, bank accounts, and more, to help you stay organized and in
-                                   control.</p>
-                         </div>
-                    </div>
-                    <div class="content__fifth-block">
-                         <div class="content__fifth-block">
-                              <div class="inform-block">
-                                   <h3>Listen in. Understand grief.</h3>
-                                   <p>Grief is a fundamental human experience, and navigating it underlies every aspect of the
-                                        Empathy app. Original audio
-                                        chapters walk you through the tangled processes of grieving to help you observe,
-                                        understand, and come to grips with what
-                                        you're going through.</p>
-                              </div>
-                              <div class="image-block">
-                                   <svg class="first-layer" xmlns="http://www.w3.org/2000/svg" width="300" height="587" viewBox="0 0 300 587" fill="none">
-                                        <path d="M267.857 0.5H32.1429C14.3908 0.5 0 14.8908 0 32.6429V554.429C0 572.181 14.3908 586.571 32.1429 586.571H267.857C285.609 586.571 300 572.181 300 554.429V32.6429C300 14.8908 285.609 0.5 267.857 0.5Z"
-                                             fill="white" />
-                                   </svg>
-                                   <div class="second-layer"></div>
-                                   <svg class="third-layer" xmlns="http://www.w3.org/2000/svg" width="147" height="23" viewBox="0 0 147 23" fill="none">
-                                        <path d="M0.0714111 1.35714C0.0714111 -5.74364 5.8282 -11.5 12.9286 -11.5H134C141.1 -11.5 146.857 -5.74364 146.857 1.35714V9.92857C146.857 17.0294 141.1 22.7857 134 22.7857H12.9286C5.8282 22.7857 0.0714111 17.0294 0.0714111 9.92857V1.35714Z"
-                                             fill="white" />
-                                   </svg>
-                                   <div class="image"></div>
-                              </div>
-                         </div>
-                    </div>
-               </div>
-          </div>
-          <div class="our-knowledge__container">
-               <div class="our-knowledge__content">
+          <footer class="footer__container">
+               <div class="footer__content">
                     <div class="wrapp-title">
-                         <h4>Get in-depth knowledge to help you navigate the maze of loss.</h4>
+                         <h6>
+                              <a href="#home">Здоровая мама</a>
+                         </h6>
                     </div>
-                    <div class="box-row">
-                         <div class="box-row__inform">
-                              <div class="circle">
-                                   <div class="image"></div>
-                              </div>
-                              <span>Applying for Benefits</span>
-                         </div>
-                         <div class="box-row__inform">
-                              <div class="circle">
-                                   <div class="image"></div>
-                              </div>
-                              <span>Managing Accounts</span>
-                         </div>
-                         <div class="box-row__inform">
-                              <div class="circle">
-                                   <div class="image"></div>
-                              </div>
-                              <span>Taxes</span>
-                         </div>
-                         <div class="box-row__inform">
-                              <div class="circle">
-                                   <div class="image"></div>
-                              </div>
-                              <span>Identity Theft Prevention</span>
-                         </div>
-                         <div class="box-row__inform">
-                              <div class="circle">
-                                   <div class="image"></div>
-                              </div>
-                              <span>Immediate Arrangements</span>
-                         </div>
-                         <div class="box-row__inform">
-                              <div class="circle">
-                                   <div class="image"></div>
-                              </div>
-                              <span>Probate</span>
-                         </div>
-                         <div class="box-row__inform">
-                              <div class="circle">
-                                   <div class="image"></div>
-                              </div>
-                              <span>Grief & Grieving</span>
-                         </div>
-                         <div class="box-row__inform">
-                              <div class="circle">
-                                   <div class="image"></div>
-                              </div>
-                              <span>The Funeral</span>
-                         </div>
-                         <div class="box-row__inform">
-                              <div class="circle">
-                                   <div class="image"></div>
-                              </div>
-                              <span>The Will</span>
-                         </div>
-                    </div>
-                    <div class="wrapp-button">
-                         <button class="see-library">
-                              <span>See Full Library</span>
-                         </button>
-                    </div>
-                    
-               </div>
-          </div>
-          <div class="your-security__container">
-               <div class="your-security__conent">
-                    <div class="wrapp-title">
-                         <h3>Your security is our priority.</h3>
-                    </div>
-                    <div class="wrapp-description">
-                         <p>Empathy is committed to ensuring that your data is and will always be safe and private. We use bank-level 256-bit
-                         encryption to store and transmit data, and your most private information is protected with two-factor authentication.</p>
-                    </div>
-               </div>
-          </div>   
-          <div class="review-container">
-               <div class="review-content">
-                    <div class="wrapp-title">
-                         <h6>In the words of our users</h6>
-                    </div>
-                    <div class="wrapp-quotes">
-                         <span>“</span>
-                    </div>
-                    <div class="wrapp-description">
-                         <p>“I feel bad for those that have to go through this alone, because there's so many that do, and I feel that the process
-                         is such a debacle. It's just a mess. There's so much to do, there's so much to know. One wrong move and you can have all
-                         your bank accounts frozen.”</p>
-                    </div>
-                    <div class="wrapp-signature">
-                         <span>– Roger, 31, Ohio</span>
-                    </div>     
-               </div>
-          </div>
-          <div class="partners-container">
-               <div class="partners-content">
-                    <div class="wrapp-title">
-                         <h4>As seen on:</h4>
-                    </div>
-                    <div class="wrapp-partners">
-                         <div class="partners-block">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="230" height="96" viewBox="0 0 230 96" fill="none">
-                                   <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M70 33.7625V41.525H77.595H85.1901V56.2625V71H92.6137H100.037V56.2625V41.525H107.632H115.228V56.2625V71H137.614H160L159.97 63.4906L159.941 55.9811L144.951 55.9526L129.961 55.9241V48.725V41.5258L144.951 41.4973L159.941 41.4688L159.97 33.7344L160 26H144.98H129.961V33.7063V41.4125H122.594H115.228V33.7063V26H92.6137H70V33.7625Z"
-                                        fill="#666565" />
-                              </svg>
-                         </div>
-                         <div class="partners-block">
-                              <span>FORTUNE</span> 
-                         </div>
-                         <div class="partners-block">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="230" height="96" viewBox="0 0 230 96" fill="none">
-                                   <path d="M86.2079 25.1567V26.081L87.0909 26.2783C88.4482 26.608 88.6526 27.3999 89.1949 29.9065L90.6078 36.9534L86.6696 57.5372L81.3059 31.6739C80.694 28.8363 80.491 26.7256 82.6646 26.2634L83.6825 26.0662V25.1567H71V26.081L72.2905 26.4121C73.581 26.7418 74.1233 27.335 75.0064 31.228L83.6283 70.8784H85.8533L91.6243 40.9261L98.0212 70.8784H99.7874L108.071 32.4536C109.023 28.035 109.43 26.7783 111.061 26.3729L112.35 26.0418V25.1567H103.033V26.081L104.458 26.3445C106.496 26.7404 106.97 27.9931 106.019 33.0738L100.94 57.5372L95.7947 31.6739C95.2385 29.1011 94.9117 26.7256 97.1534 26.3297L98.6471 26.0662V25.1419L86.2079 25.1567ZM146.622 25.2811V26.2053L148.319 26.6013C149.811 26.931 150.423 27.4593 150.423 29.3065V61.3046C150.423 64.8666 150.423 69.5514 146.619 69.5514C144.447 69.5514 142.754 67.7042 142.887 66.4502C143.022 64.4058 146.689 64.5368 146.892 61.2384C147.096 58.9412 145.601 57.8602 144.108 57.6752C142.004 57.4116 139.424 59.1264 139.355 62.5572C139.288 66.976 142.275 71 147.365 71C152.997 71 156.682 67.3084 156.682 60.248L156.683 29.3714C156.683 27.5242 157.159 26.9296 158.516 26.6013L160 26.1905V25.2662L146.622 25.2811ZM123.747 25C117.975 25 114.717 29.6849 114.717 35.8196C114.717 47.2338 129.858 51.6538 129.858 61.9464C129.858 66.8286 127.753 69.5326 124.713 69.5326C120.165 69.5326 116.904 64.191 116.091 55.6792H115.073V70.7216H115.888C116.567 68.5596 117.45 68.3474 118.196 68.3474C119.487 68.3474 120.843 70.9824 124.781 70.9824C130.823 70.9824 134.76 65.9044 134.763 58.9074C134.763 45.1852 119.622 41.8206 119.622 31.9901C119.622 29.747 120.3 26.4499 123.696 26.4499C128.586 26.4499 130.691 32.7171 131.505 40.3045H132.523V25.2649H131.708C131.368 26.7161 130.758 27.3755 129.875 27.3755C128.313 27.3755 127.511 25.0014 123.764 25.0014L123.747 25ZM134.677 37.9384V38.1006L134.709 38.0817L134.692 37.9465L134.677 37.9384Z"
-                                        fill="#666565" />
-                              </svg>
-                         </div>
-                         <div class="partners-block">
-                              <span>AXIOS</span>
-                         </div>
-                    </div>
-               </div>
-          </div>
-          <div class="prices-container">
-               <div class="prices-content">
-                    <div class="prices__first-row">
-                         <div class="wrapp-title">
-                              <h6>30-day free trial</h6>
-                         </div>
-                         <div class="wrapp-description">
-                              <p>No credit card required, no strings attached.</p>
-                         </div>
-                    </div>
-                    <div class="prices__second-row">
-                         <div class="wrapp-title">
-                              <h6>$65, all included</h6>
-                         </div>
-                         <div class="wrapp-description">
-                              <p>Just one payment, for as long as you need. No hidden fees.</p>
-                         </div>
-                    </div>
-
-               </div>
-          </div>
-          <div class="input-container">
-               <div class="input-content">
-                    <div class="wrapp-title">
-                         <h6>Start your free trial</h6>
-                    </div>
-                    <label for="phone-number-2" class="wrapp-iput">
-                         <input class="phone-number" type="tel" id="phone-number-2" placeholder="+380 66 137 13 89">
-                         <button class="button-text-me">
-                              <span>Text Me the App</span>
-                         </button>
-                    </label>
-                    <div class="input-description">
-                         <p>We will send a text message to your phone with a download link.</p>
-                    </div>
-               </div>
-          </div>
-          <footer class="footer-container">
-               <div class="footer-content">
-                    <div class="footer__first-row">
-                         <div class="company-row">
-                              <h5>Company</h5>
-                              <span>About</span>
-                              <span>Join the Team</span>
-                              <span>Partner With Us</span>
-                              <span>Press</span>
-                              <span>Privacy Policy</span>
-                              <span>Terms of Service</span>
-                              <span>Contact Us</span>
-                         </div>
-                         <div class="resources-row">
-                              <h5>Resources</h5>
-                              <span>Learn</span>
-                              <span>FAQ</span>
-                              <span>COVID-19</span>
-                              <span>Help</span>
-                         </div>
-                    </div>
-                    <div class="footer__second-row">
-                         <button class="email">
-                              <span>Subscribe to Our Newsletter</span>
-                         </button>
-                         <button class="x">
-                              <svg class="position" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
-                                   <g clip-path="url(#clip0_1_77)">
-                                        <path d="M20 40C31.0457 40 40 31.0457 40 20C40 8.95431 31.0457 0 20 0C8.95431 0 0 8.95431 0 20C0 31.0457 8.95431 40 20 40Z"
-                                        fill="#1E1928" />
-                                        <path d="M23.9708 17.5773C23.6787 17.7043 23.3652 17.7916 23.0358 17.8297C23.3724 17.6312 23.6295 17.3169 23.7517 16.9431C23.431 17.1301 23.0811 17.2615 22.7168 17.3321C22.5635 17.1714 22.3791 17.0436 22.1748 16.9565C21.9706 16.8695 21.7508 16.825 21.5287 16.8257C20.6295 16.8257 19.9009 17.544 19.9009 18.4288C19.9009 18.5543 19.9152 18.6765 19.9429 18.794C19.298 18.7633 18.6665 18.5985 18.0888 18.3103C17.5109 18.0219 16.9996 17.6164 16.5874 17.1193C16.4426 17.3631 16.3664 17.6414 16.3668 17.9249C16.3668 18.4805 16.6548 18.9725 17.0913 19.259C16.8329 19.2509 16.5802 19.1822 16.3532 19.0583V19.0781C16.3557 19.4506 16.4872 19.8109 16.7254 20.0974C16.9636 20.384 17.2937 20.579 17.6596 20.6495C17.4194 20.713 17.1681 20.7223 16.9239 20.6765C17.0304 20.997 17.234 21.2765 17.5065 21.476C17.7789 21.6755 18.1068 21.7853 18.4446 21.79C17.8651 22.2365 17.1538 22.4777 16.4223 22.4757C16.2913 22.4757 16.162 22.4678 16.0342 22.4535C16.7807 22.926 17.6461 23.1762 18.5295 23.1749C21.5248 23.1749 23.162 20.7321 23.162 18.613L23.1565 18.405C23.4758 18.1806 23.7517 17.9002 23.9708 17.5773Z"
-                                        fill="white" />
-                                        <path d="M15.2394 13.6508C14.8184 13.6508 14.4146 13.818 14.117 14.1157C13.8193 14.4134 13.6521 14.8171 13.6521 15.238V24.7619C13.6521 25.1829 13.8193 25.5866 14.117 25.8843C14.4146 26.182 14.8184 26.3492 15.2394 26.3492H24.7632C25.1842 26.3492 25.5879 26.182 25.8856 25.8843C26.1832 25.5866 26.3504 25.1829 26.3504 24.7619V15.238C26.3504 14.8171 26.1832 14.4134 25.8856 14.1157C25.5879 13.818 25.1842 13.6508 24.7632 13.6508H15.2394ZM15.2394 12.0635H24.7632C25.6051 12.0635 26.4126 12.398 27.008 12.9933C27.6033 13.5886 27.9378 14.3961 27.9378 15.238V24.7619C27.9378 25.6039 27.6033 26.4113 27.008 27.0067C26.4126 27.602 25.6051 27.9365 24.7632 27.9365H15.2394C14.3974 27.9365 13.59 27.602 12.9946 27.0067C12.3993 26.4113 12.0648 25.6039 12.0648 24.7619V15.238C12.0648 14.3961 12.3993 13.5886 12.9946 12.9933C13.59 12.398 14.3974 12.0635 15.2394 12.0635Z"
-                                        fill="white" />
-                                   </g>
-                                   <defs>
-                                        <clipPath id="clip0_1_77">
-                                             <rect width="40" height="40" fill="white" />
-                                        </clipPath>
-                                   </defs>
-                              </svg>
-                         </button>
-                         <button class="instagram">
-                              <svg class="position" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
-                                   <g clip-path="url(#clip0_1_66)">
-                                        <path d="M20 40C31.0457 40 40 31.0457 40 20C40 8.95431 31.0457 0 20 0C8.95431 0 0 8.95431 0 20C0 31.0457 8.95431 40 20 40Z"
-                                             fill="#1E1928" />
-                                        <path d="M20.0006 16.1847C17.8894 16.1847 16.1855 17.8886 16.1855 19.9999C16.1855 22.1111 17.8894 23.815 20.0006 23.815C22.1119 23.815 23.8157 22.1111 23.8157 19.9999C23.8157 17.8886 22.1119 16.1847 20.0006 16.1847ZM20.0006 22.4794C18.6353 22.4794 17.5211 21.3652 17.5211 19.9999C17.5211 18.6345 18.6353 17.5203 20.0006 17.5203C21.366 17.5203 22.4801 18.6345 22.4801 19.9999C22.4801 21.3652 21.366 22.4794 20.0006 22.4794ZM23.972 15.1394C23.479 15.1394 23.081 15.5374 23.081 16.0303C23.081 16.5233 23.479 16.9214 23.972 16.9214C24.4649 16.9214 24.863 16.5252 24.863 16.0303C24.8631 15.9133 24.8401 15.7974 24.7955 15.6892C24.7507 15.5811 24.6851 15.4828 24.6023 15.4001C24.5196 15.3172 24.4213 15.2516 24.3131 15.2069C24.2049 15.1622 24.089 15.1392 23.972 15.1394ZM27.4374 19.9999C27.4374 18.9731 27.4467 17.9556 27.389 16.9306C27.3314 15.7402 27.0598 14.6837 26.1892 13.8131C25.3168 12.9407 24.2621 12.671 23.0717 12.6133C22.0449 12.5557 21.0274 12.565 20.0024 12.565C18.9757 12.565 17.9582 12.5557 16.9333 12.6133C15.7428 12.671 14.6862 12.9425 13.8157 13.8131C12.9433 14.6855 12.6736 15.7402 12.616 16.9306C12.5582 17.9575 12.5676 18.9749 12.5676 19.9999C12.5676 21.0248 12.5582 22.0442 12.616 23.0691C12.6736 24.2596 12.9452 25.3161 13.8157 26.1866C14.6881 27.059 15.7428 27.3287 16.9333 27.3864C17.96 27.4441 18.9776 27.4347 20.0024 27.4347C21.0293 27.4347 22.0467 27.4441 23.0717 27.3864C24.2621 27.3287 25.3187 27.0572 26.1892 26.1866C27.0617 25.3143 27.3314 24.2596 27.389 23.0691C27.4485 22.0442 27.4374 21.0266 27.4374 19.9999ZM25.8004 24.3861C25.6647 24.7245 25.501 24.9776 25.2387 25.238C24.9764 25.5002 24.7253 25.664 24.3868 25.7997C23.4083 26.1885 21.0851 26.1011 20.0006 26.1011C18.9161 26.1011 16.591 26.1885 15.6126 25.8016C15.2741 25.6658 15.0211 25.5021 14.7606 25.2399C14.4983 24.9776 14.3347 24.7264 14.1989 24.3879C13.812 23.4076 13.8994 21.0843 13.8994 19.9999C13.8994 18.9154 13.812 16.5903 14.1989 15.6119C14.3347 15.2733 14.4983 15.0203 14.7606 14.7599C15.0229 14.4995 15.2741 14.334 15.6126 14.1982C16.591 13.8112 18.9161 13.8986 20.0006 13.8986C21.0851 13.8986 23.4102 13.8112 24.3886 14.1982C24.7272 14.334 24.9801 14.4977 25.2405 14.7599C25.5028 15.0222 25.6665 15.2733 25.8023 15.6119C26.1892 16.5903 26.1018 18.9154 26.1018 19.9999C26.1018 21.0843 26.1892 23.4076 25.8004 24.3861Z"
-                                             fill="white" />
-                                   </g>
-                                   <defs>
-                                        <clipPath id="clip0_1_66">
-                                             <rect width="40" height="40" fill="white" />
-                                        </clipPath>
-                                   </defs>
-                              </svg>
-                         </button>
-                         <button class="facebook">
-                              <svg class="position" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
-                                   <g clip-path="url(#clip0_1_83)">
-                                        <path d="M20 40C31.0457 40 40 31.0457 40 20C40 8.95431 31.0457 0 20 0C8.95431 0 0 8.95431 0 20C0 31.0457 8.95431 40 20 40Z"
-                                             fill="#1E1928" />
-                                        <path d="M18.9659 17.5686V18.6614H18.1659V19.9972H18.9659V23.9677H20.6104V19.9972H21.7135C21.7135 19.9972 21.8175 19.3567 21.8675 18.6558H20.6167V17.7432C20.6167 17.6058 20.7961 17.4225 20.9738 17.4225H21.869V16.0312H20.6508C18.9254 16.0312 18.9659 17.3686 18.9659 17.5686Z"
-                                             fill="white" />
-                                        <path d="M15.2394 13.6508C14.8184 13.6508 14.4146 13.818 14.117 14.1157C13.8193 14.4134 13.6521 14.8171 13.6521 15.238V24.7619C13.6521 25.1829 13.8193 25.5866 14.117 25.8843C14.4146 26.182 14.8184 26.3492 15.2394 26.3492H24.7632C25.1842 26.3492 25.5879 26.182 25.8856 25.8843C26.1832 25.5866 26.3504 25.1829 26.3504 24.7619V15.238C26.3504 14.8171 26.1832 14.4134 25.8856 14.1157C25.5879 13.818 25.1842 13.6508 24.7632 13.6508H15.2394ZM15.2394 12.0635H24.7632C25.6051 12.0635 26.4126 12.398 27.008 12.9933C27.6033 13.5886 27.9378 14.3961 27.9378 15.238V24.7619C27.9378 25.6039 27.6033 26.4113 27.008 27.0067C26.4126 27.602 25.6051 27.9365 24.7632 27.9365H15.2394C14.3974 27.9365 13.59 27.602 12.9946 27.0067C12.3993 26.4113 12.0648 25.6039 12.0648 24.7619V15.238C12.0648 14.3961 12.3993 13.5886 12.9946 12.9933C13.59 12.398 14.3974 12.0635 15.2394 12.0635Z"
-                                             fill="white" />
-                                   </g>
-                                   <defs>
-                                        <clipPath id="clip0_1_83">
-                                             <rect width="40" height="40" fill="white" />
-                                        </clipPath>
-                                   </defs>
-                              </svg>
-                         </button>
-                         <button class="linkedin">
-                              <svg class="position" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
-                                   <g clip-path="url(#clip0_1_71)">
-                                        <path d="M20 40C31.0457 40 40 31.0457 40 20C40 8.95431 31.0457 0 20 0C8.95431 0 0 8.95431 0 20C0 31.0457 8.95431 40 20 40Z"
-                                             fill="#1E1928" />
-                                        <path d="M24.5238 20.4384V23.4312H22.7891V20.6384C22.7891 19.9373 22.538 19.4588 21.9099 19.4588C21.4307 19.4588 21.1449 19.781 21.0193 20.0935C20.974 20.2052 20.9619 20.3606 20.9619 20.5161V23.4312H19.2263C19.2263 23.4312 19.2498 18.702 19.2263 18.2122H20.9619V18.9513L20.9506 18.9683H20.9619V18.9521C21.1927 18.5959 21.6038 18.0891 22.5259 18.0891C23.6674 18.0891 24.5238 18.8355 24.5238 20.4384ZM17.4106 15.6953C16.8172 15.6953 16.4286 16.0855 16.4286 16.5971C16.4286 17.099 16.8058 17.4998 17.3879 17.4998H17.3993C18.0048 17.4998 18.3812 17.0983 18.3812 16.5971C18.3698 16.0855 18.0048 15.6953 17.4106 15.6953ZM16.5314 23.4312H18.267V18.2122H16.5314V23.4312Z"
-                                             fill="white" />
-                                        <path d="M15.6191 13.0478C15.1896 13.0478 14.7778 13.2183 14.4742 13.5219C14.1706 13.8256 14 14.2374 14 14.6668V24.3811C14 24.8104 14.1706 25.2222 14.4742 25.5259C14.7778 25.8296 15.1896 26.0001 15.6191 26.0001H25.3334C25.7628 26.0001 26.1746 25.8296 26.4782 25.5259C26.7818 25.2222 26.9524 24.8104 26.9524 24.3811V14.6668C26.9524 14.2374 26.7818 13.8256 26.4782 13.5219C26.1746 13.2183 25.7628 13.0478 25.3334 13.0478H15.6191ZM15.6191 11.4287H25.3334C26.1921 11.4287 27.0157 11.7699 27.6231 12.3771C28.2303 12.9844 28.5715 13.808 28.5715 14.6668V24.3811C28.5715 25.2399 28.2303 26.0635 27.6231 26.6707C27.0157 27.278 26.1921 27.6192 25.3334 27.6192H15.6191C14.7603 27.6192 13.9367 27.278 13.3294 26.6707C12.7221 26.0635 12.381 25.2399 12.381 24.3811V14.6668C12.381 13.808 12.7221 12.9844 13.3294 12.3771C13.9367 11.7699 14.7603 11.4287 15.6191 11.4287Z"
-                                             fill="white" />
-                                   </g>
-                                   <defs>
-                                        <clipPath id="clip0_1_71">
-                                             <rect width="40" height="40" fill="white" />
-                                        </clipPath>
-                                   </defs>
-                              </svg>
-                         </button>
-                    </div>
-                    <div class="footer__third-row">
-                         <p>Empathy is for everyone, because loss affects everyone. We’re proud to support every person and family, regardless of
-                         their age, race, religion, ethnicity, gender identity, or sexual orientation.</p>
-                         <div class="links-app">
-                              <a class="app-store" href=""></a>
-                              <a class="google-play" href=""></a>
-                         </div>
-                    </div>
-                    <div class="footer__fourth-row">
-                         <span class="adress">1178 Broadway New York, NY 10001</span>
-                         <span class="stamp">© 2021 Empathy. All rights reserved.</span>
-                    </div>
+                    <nav class="footer__menu-block">
+                         <ul class="menu-list">
+                              <li class="menu-item">
+                                   <a href="#eat-right" class="menu-link">Важность правильного питания</a>
+                              </li>
+                              <li class="menu-item">
+                                   <a href="#delivery" class="menu-link">Почему мы?</a>
+                              </li>
+                              <li class="menu-item">
+                                   <a href="#order" class="menu-link">Где заказать?</a>
+                              </li>
+                              <li class="menu-item">
+                                   <a href="#ghgfh" class="menu-link">Политика конфиденциальности</a>
+                              </li>
+                              <li class="menu-item">
+                                   <a href="#ghgh" class="menu-link">Условия онлайн-успользования</a>
+                              </li>
+                         </ul>
+                    </nav>
                </div>
           </footer>
      </div>
