@@ -137,7 +137,6 @@ a {
 }
 
 .wrapp-page {
-  flex-wrap: wrap;
   background: #EDE6DD;
   overflow-y: auto;
   scroll-snap-type: y mandatory;
